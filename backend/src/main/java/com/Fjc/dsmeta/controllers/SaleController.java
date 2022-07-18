@@ -10,12 +10,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.Fjc.dsmeta.entities.Sale;
 import com.Fjc.dsmeta.services.SaleService;
+;
 
 @RestController
 @RequestMapping(value = "/sales")
 public class SaleController {
 
-	
+	;
 	
 	@Autowired
 	private SaleService service;
