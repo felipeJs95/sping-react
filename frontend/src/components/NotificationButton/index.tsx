@@ -8,8 +8,8 @@ type Props ={
   saleId: number
 }
 
-function handleClick(id : number){
-axios(`${BASE_URL}/sales/${id}/notification`).then(response =>{
+function handleClick(salid : number){
+axios(`${BASE_URL}/sales/${salid}/notification`).then(response =>{
   toast.info("Sms enviado")
 })
 }
